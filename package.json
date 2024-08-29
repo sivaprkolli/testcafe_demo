@@ -1,0 +1,23 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "testcafe chrome tests/first_test.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^3.7.0",
+    "testcafe": "^3.6.2",
+    "testcafe-reporter-allure-plus": "^1.2.1"
+  },
+  "dependencies": {
+    "testcafe-reporter-cucumber-json": "^6.3.0",
+    "testcafe-reporter-json": "^2.2.0"
+  }
+}

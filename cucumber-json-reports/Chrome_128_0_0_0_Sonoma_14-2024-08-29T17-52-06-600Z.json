@@ -1,0 +1,122 @@
+[
+  {
+    "description": "Login Module",
+    "elements": [
+      {
+        "id": "ScenarioVerify login success",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Verify login success",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/shiva/Documents/TestCafe/tests/first_test.js:1:0"
+            },
+            "name": "Verify login success",
+            "result": {
+              "duration": 2840,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Verify login success</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioVerify list of products",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Verify list of products",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/shiva/Documents/TestCafe/tests/first_test.js:1:0"
+            },
+            "name": "Verify list of products",
+            "result": {
+              "duration": 906,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Verify list of products</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Login Module",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "128.0.0.0"
+      },
+      "device": "Sonoma",
+      "platform": {
+        "name": "unknown",
+        "version": "unknown"
+      },
+      "reportTime": "2024-08-29T17:52:06.601Z",
+      "startTime": "2024-08-29T17:51:59.656Z"
+    },
+    "name": "Login Module",
+    "runInfo": {
+      "endTime": "2024-08-29T17:52:06.600Z",
+      "passed": 2,
+      "startTime": "2024-08-29T17:51:59.656Z",
+      "testCount": 2,
+      "userAgents": [
+        "Chrome 128.0.0.0 / Sonoma 14"
+      ],
+      "warnings": []
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@verify"
+      },
+      {
+        "line": 0,
+        "name": "@list"
+      },
+      {
+        "line": 0,
+        "name": "@products"
+      },
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@success"
+      },
+      {
+        "line": 0,
+        "name": "@module"
+      }
+    ],
+    "uri": "/Users/shiva/Documents/TestCafe/tests/first_test.js:1"
+  }
+]
