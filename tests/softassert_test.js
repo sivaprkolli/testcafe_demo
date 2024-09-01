@@ -30,6 +30,13 @@ class SoftAssert {
             this.errors.push(error);
         }
     }
+
+
+    async assert_all() {
+        if (this.errors.length > 0) {
+            throw new Error(this.errors.map(e => e.errMsg).join('\n'));
+        }
+    }
 }
 
 export default SoftAssert;

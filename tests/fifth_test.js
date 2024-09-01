@@ -31,7 +31,9 @@ test.meta({
         await softAssert.assertEqual(Selector('.title').innerText, 'product', "Both are not same")
         await softAssert.assertEqual(Selector('.title').innerText, 'products', "Both are not same")
         await softAssert.assertEqual(Selector('.title').innerText, 'Products', "Both are not same")
+        await softAssert.stepAssertEqual("Verify products title",t, Selector('.title').innerText, '61546546', "Both are not same")
         await softAssert.stepAssertEqual("Verify products title",t, Selector('.title').innerText, 'Products', "Both are not same")
+        await softAssert.assert_all();
 
         /*
            await softAssert.assertEqual("Verify products title",Selector('.title').innerText, 'product', "Both are not same")
