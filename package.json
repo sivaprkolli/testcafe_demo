@@ -12,6 +12,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@alfonso-presa/soft-assert": "^0.6.0",
+    "chai": "^5.1.1",
     "multiple-cucumber-html-reporter": "^3.7.0",
     "testcafe": "^3.6.2",
     "testcafe-reporter-allure-plus": "^1.2.1"

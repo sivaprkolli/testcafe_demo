@@ -1,2 +1,5 @@
 node_modules
 cucumber-json-reports
+allure
+screenshots
+package-lock.json

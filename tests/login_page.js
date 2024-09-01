@@ -1,5 +1,5 @@
 import {Selector, t} from 'testcafe';
-//import XPathSelector from '../util/xpath'
+import {step} from 'testcafe-reporter-allure-plus/dist/utils';
 class LoginPage{
 
     loginFormElements={
@@ -16,6 +16,14 @@ class LoginPage{
         await t.click(Selector(locator))
     }
 
+    async stepClickOnElement(locator){
+        await step("Click on button", t, t.click(locator));
+    }
+
+    async stepTypeValue(locator, data){
+        await step("Type value in the inputbox", t, t.typeText(locator, data));
+    }
+
     async typeValue(locator, data){
        await t.typeText(locator, data)
     }
@@ -25,6 +33,14 @@ class LoginPage{
         await this.typeValue(this.loginFormElements.passwordInputBox, password)
         await this.clickOnElement(this.loginFormElements.loginButton)
     }
+
+    async loginUsingStep(username, password){
+        await this.stepTypeValue(this.loginFormElements.userNameInputBox, username)
+        await this.stepTypeValue(this.loginFormElements.passwordInputBox, password)
+        await this.stepClickOnElement(this.loginFormElements.loginButton)
+    }
+
+
 
 }
 

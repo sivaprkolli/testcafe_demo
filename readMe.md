@@ -4,7 +4,7 @@ node report-generator.js
 
 For Allure Report
 
-testcafe chrome tests/second_test.js --reporter allure-plus
+testcafe chrome tests/fifth_test.js --reporter allure-plus
 allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report
 
 
